@@ -1,0 +1,106 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>十一咖派游园会</title>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<!-- <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"> -->
+	<script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
+
+<style type="text/css">
+	*{border: 0px;margin: 0px;}
+
+	.container{background-color: #fef2d8;text-align: center;}
+
+	.notice img{width: 100%;height: auto;}
+	.notice h2{text-align: center;}
+
+	.item-list{width: 90%;margin-left: auto;margin-right: auto; margin-top: 20px;}
+
+	.item1{float: left;width: 50%;height: auto;}
+	.item1 a{padding-right: 5px;}
+	.item1 img{width: 100%;height: auto;padding-bottom: 5px;}
+	.item2{float: left;width: 50%;height: auto;}
+	.item2 a {padding-left: 5px;}
+	.item2 img{width: 100%;height: auto;padding-bottom: 5px;}
+	.item3{float: left;width: 50%;height: auto;}
+	.item3 a {padding-right: 5px;}
+	.item3 img{width: 100%;height: auto;}
+	.item4{float: left;width: 50%;height: auto;}
+	.item4 a {padding-left: 5px;}
+	.item4 img{width: 100%;height: auto;}
+
+	.download-item {text-align: center;}
+	.download-item img{margin-top:30px;margin-bottom: 15px;}
+
+	.item-content-list {margin-top: 20px;text-align: center;}
+	#item-content-1 {margin-top: 20px;}
+	#item-content-1 img{width: 100%;height: auto;margin-bottom: 15px;}
+	#item-content-2 {margin-top: 20px;}
+	#item-content-2 img{width: 100%;height: auto;margin-bottom: 15px;}
+	#item-content-3 {margin-top: 20px;}
+	#item-content-3 img{width: 100%;height: auto;margin-bottom: 15px;}
+	#item-content-4 {margin-top: 20px;}
+	#item-content-4 img{width: 100%;height: auto;margin-bottom: 15px;}
+
+	.footer-edge img{width: 100%;}
+
+	#go2top img{width: 20%;height: auto;position: fixed;right: 3px;bottom: 0px;}
+
+</style>
+
+</head>
+<body>
+<div class="container">
+	<div class="notice" id="notice">
+		<a href="#"><img src="../images/holiday-party/top.png"></a>
+	</div>
+
+	<div class="item-list">
+		<div style="margin-left:auto;margin-right:auto;">
+		<div class="item1">
+			<a href="javascript:scrollTo('#item-content-1')"><img src="../images/holiday-party/huodong_1.png"></a>
+		</div>
+		<div class="item2">
+			<a href="javascript:scrollTo('#item-content-2')"><img src="../images/holiday-party/huodong_2.png"></a>
+		</div>
+	</div>
+	<div style="margin-left:auto;margin-right:auto;">
+		<div class="item3">
+			<a href="javascript:scrollTo('#item-content-3')"><img src="../images/holiday-party/huodong_3.png"></a>
+		</div>
+		<div class="item4">
+			<a href="javascript:scrollTo('#item-content-4')"><img src="../images/holiday-party/huodong_4.png"></a>
+		</div>
+		</div>
+	</div>
+
+	<div class="download-item">
+		<div class="android-download"><a href="http://www.handouer.cn/apps/luodi_1001.html"><img src="../images/holiday-party/but.png"></a></div>
+	</div>
+
+	<div class="item-content-list">
+		<div id="item-content-1"><img src="../images/holiday-party/1.png"></div>
+		<div id="item-content-2"><img src="../images/holiday-party/2.png"></div>
+		<div id="item-content-3"><img src="../images/holiday-party/3.png"></div>
+		<div id="item-content-4"><img src="../images/holiday-party/4.png"></div>
+	</div>
+
+	<div class="footer-edge">
+		<img src="../images/holiday-party/di.png">
+	</div>
+
+	<div id="go2top">
+		<a href="javascript:scrollTo('#notice')"><img src="../images/holiday-party/fanhuidingbu.png"></a>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+	function scrollTo(id){
+		$("html,body").animate({scrollTop: $(id).offset().top}, 1000);
+	};
+</script>
+</body>
+</html>
